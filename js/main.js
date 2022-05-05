@@ -18,3 +18,4 @@ let secondMovie = prompt('Один из последних просмотрен�
 let secondMoviePoint = +prompt('На сколько оцените его?', '');
 
 personalMovieDB.movie[firstMovie] = firstMoviePoint;
+personalMovieDB.movie[secondMovie] = secondMoviePoint;
